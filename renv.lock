@@ -1,0 +1,48 @@
+{
+  "R": {
+    "Version": "4.2.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "data.table": {
+      "Package": "data.table",
+      "Version": "1.14.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b9b912b41064aaa79270f24d123c887d",
+      "Requirements": []
+    },
+    "gtfsio": {
+      "Package": "gtfsio",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "dd7277616c17c88d4061d84f80c1d78a",
+      "Requirements": [
+        "data.table",
+        "zip"
+      ]
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.16.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "c9e8442ab69bc21c9697ecf856c1e6c7",
+      "Requirements": []
+    },
+    "zip": {
+      "Package": "zip",
+      "Version": "2.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a7e91189fa51d9029a30eba3831ce53f",
+      "Requirements": []
+    }
+  }
+}
